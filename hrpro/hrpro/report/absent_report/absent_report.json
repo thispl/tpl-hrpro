@@ -1,0 +1,27 @@
+{
+ "add_total_row": 1,
+ "columns": [],
+ "creation": "2020-05-11 22:10:14.315342",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{\"filters\":[[\"Attendance\",\"attendance_date\",\"Timespan\",\"today\",false],[\"Attendance\",\"status\",\"=\",\"Absent\"]],\"fields\":[[\"name\",\"Attendance\"],[\"docstatus\",\"Attendance\"],[\"employee\",\"Attendance\"],[\"employee_name\",\"Attendance\"],[\"status\",\"Attendance\"],[\"attendance_date\",\"Attendance\"],[\"department\",\"Attendance\"]],\"order_by\":\"`tabAttendance`.`modified` desc\",\"add_totals_row\":0,\"page_length\":20,\"column_widths\":{},\"group_by\":null}",
+ "modified": "2021-03-10 19:02:09.780746",
+ "modified_by": "Administrator",
+ "module": "hrPRO",
+ "name": "Absent Report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Attendance",
+ "report_name": "Absent Report",
+ "report_type": "Report Builder",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}

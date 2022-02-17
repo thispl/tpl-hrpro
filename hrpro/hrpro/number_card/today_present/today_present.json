@@ -1,0 +1,23 @@
+{
+ "aggregate_function_based_on": "",
+ "creation": "2020-11-21 14:43:14.856567",
+ "docstatus": 0,
+ "doctype": "Number Card",
+ "document_type": "Attendance",
+ "dynamic_filters_json": "[]",
+ "filters_json": "[[\"Attendance\",\"status\",\"=\",\"Present\",false],[\"Attendance\",\"attendance_date\",\"Timespan\",\"today\",false]]",
+ "function": "Count",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "label": "Today Present",
+ "modified": "2021-03-27 17:06:43.861788",
+ "modified_by": "Administrator",
+ "module": "hrPRO",
+ "name": "Today Present",
+ "owner": "Administrator",
+ "report_function": "Sum",
+ "show_percentage_stats": 1,
+ "stats_time_interval": "Daily",
+ "type": "Document Type"
+}

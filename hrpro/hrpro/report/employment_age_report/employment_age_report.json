@@ -1,0 +1,31 @@
+{
+ "add_total_row": 0,
+ "creation": "2020-12-19 17:07:45.550993",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{\"filters\":[[\"Employee\",\"status\",\"=\",\"Active\",false]],\"fields\":[[\"name\",\"Employee\"],[\"employee_name\",\"Employee\"],[\"gender\",\"Employee\"],[\"employment_age\",\"Employee\"],[\"company\",\"Employee\"],[\"date_of_joining\",\"Employee\"],[\"status\",\"Employee\"],[\"department\",\"Employee\"]],\"order_by\":\"`tabEmployee`.`modified` desc\",\"add_totals_row\":0,\"page_length\":100,\"column_widths\":{\"name\":120,\"employee_name\":120,\"gender\":120,\"employment_age\":120,\"company\":120,\"date_of_joining\":120,\"status\":120,\"department\":120},\"group_by\":null,\"chart_args\":{\"chart_type\":\"bar\",\"x_axis\":\"status\",\"y_axes\":[\"_aggregate_column\"]}}",
+ "modified": "2021-02-06 14:41:13.240374",
+ "modified_by": "Administrator",
+ "module": "hrPRO",
+ "name": "Employment Age Report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Employee",
+ "report_name": "Employment Age Report",
+ "report_type": "Report Builder",
+ "roles": [
+  {
+   "role": "Employee"
+  },
+  {
+   "role": "HR User"
+  },
+  {
+   "role": "HR Manager"
+  }
+ ]
+}

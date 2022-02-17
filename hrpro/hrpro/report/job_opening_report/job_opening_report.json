@@ -1,0 +1,25 @@
+{
+ "add_total_row": 0,
+ "creation": "2020-05-08 10:45:59.714455",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{\"filters\":[],\"fields\":[[\"name\",\"Job Opening\"],[\"docstatus\",\"Job Opening\"],[\"job_title\",\"Job Opening\"],[\"status\",\"Job Opening\"],[\"department\",\"Job Opening\"],[\"staffing_plan\",\"Job Opening\"],[\"publish\",\"Job Opening\"]],\"order_by\":\"`tabJob Opening`.`modified` desc\",\"add_totals_row\":0,\"page_length\":20,\"column_widths\":{\"name\":120,\"job_title\":120,\"status\":120,\"department\":120,\"staffing_plan\":120,\"publish\":120},\"group_by\":null}",
+ "modified": "2020-11-15 21:52:26.400837",
+ "modified_by": "Administrator",
+ "module": "hrPRO",
+ "name": "Job Opening Report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Job Opening",
+ "report_name": "Job Opening Report",
+ "report_type": "Report Builder",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}

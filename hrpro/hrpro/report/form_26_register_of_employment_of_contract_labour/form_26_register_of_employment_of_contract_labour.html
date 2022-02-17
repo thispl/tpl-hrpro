@@ -1,0 +1,131 @@
+<h2 class="text-center">{%= __("Form No. XXVI") %}</h2>
+<h4 class="text-center">{%= __("(See Rule 75)") %}</h4>
+<h4 class="text-center">{%= __("Register of Employment of Contract Labour") %}</h4>
+{%
+    var report_columns = report.get_columns_for_print();
+%}
+<style>
+    td {
+        font-size: 11px;
+    }
+
+    th {
+        font-size: 9px;
+    }
+
+    .center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
+<meta name="pdfkit-orientation" content="landscape">
+<div class="row">
+    <div class="col-xs-3"><h6>
+        Name and Address of the principle Employer<br><br>
+        Name and Address of the Contractor<br><br>
+        Name and Location of the work site</h6>
+    </div>
+    <div class="col-xs-3"><h6>
+        :{{filters.company}}<br><br>
+        :{{filters.contractor}}<br><br>
+        :{{filters.company}}</h6>
+    </div>
+    <div class="col-xs-3"><h6>
+        -<br><br>
+        Month<br><br>
+        Year</h6>
+    </div>
+    <div class="col-xs-3"><h6>
+        -<br><br>
+        :{{filters.month}}<br><br>
+        :{{filters.year}}</h6>
+    </div>
+</div>
+<thead>
+    <tr>
+        <hr>
+        {%
+                            var report_columns = report.get_columns_for_print();
+                        %}
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>SI No</th>
+            <th>Serial Number</th>
+            <th>Name of the workman</th>
+            <th>Age and sex</th>
+            <th>Permanent Home address</th>
+            <th>Local Address</th>
+            <th>Designation (Nature of work)</th>
+            <th>Father's/Husband name</th>
+            <th>Date of Entry into Service</th>
+            <th>Rates of Wages</th>
+            {% for(var j=0, k=1; j<k; j++) { %}
+            {% var row = data[j]; %}
+            {% for(var i=2, l=33; i<l; i++) { %}
+            <th class="text-left"> 
+                {% var fieldname = report_columns[i].fieldname; %}
+				{%= fieldname %}
+                {% } %}
+                {% } %}		
+			</th>
+            <th>Number of days worked</th>
+            <th>Signature or Thumb impression of the workman</th>
+            <th>Date of termination of employment</th>
+            <th>Signature of Contractor/Representative</th>		
+            </tr>
+        </thead>
+        <tbody>        
+    {% for(var j=0, k=data.length; j<k; j++) { %}
+    {% var row = data[j]; %}
+            <td class="text-left">
+                {{j+1}}
+            </td>
+            <td class="text-left">
+				{% for(var i=0, l=32; i<l; i++) { %}
+				{% var fieldname = report_columns[i].fieldname; %}
+				{% if (fieldname == 'employee') { %}
+				{%= row[fieldname] %}
+				{% } %}
+				{% } %}
+			</td>
+            <td class="text-left">
+                {% for(var i=1, l=32; i<l; i++) { %}
+                {% var fieldname = report_columns[i].fieldname; %}
+                {% if (fieldname == 'employee_name') { %}
+                {%=  row[fieldname] %}
+                {% } %}
+                {% } %}
+            </td>
+            <td class="text-left">
+            </td>
+            <td class="text-left">
+            </td>
+            <td class="text-left">
+            </td>
+            <td class="text-left">
+            </td>
+            <td class="text-left">
+            </td>
+            <td class="text-left">
+            </td>
+            <td class="text-left">
+            </td>
+            {% for(var i=2, l=33; i<l; i++) { %}
+            <td class="text-left">                
+                {% var fieldname = report_columns[i].fieldname; %}
+                {%=  row[fieldname] %}
+                {% } %}
+            </td> 
+            <td class="text-left">
+            </td>
+            <td class="text-left">
+            </td>
+            <td class="text-left">
+            </td>
+            <td class="text-left">
+            </td>
+        </tr>
+        {% } %}
+    </tbody>
+</table>

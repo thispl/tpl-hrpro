@@ -1,0 +1,59 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2021-09-21 20:03:28.691369",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "modified": "2021-09-21 20:03:42.844034",
+ "modified_by": "Administrator",
+ "module": "hrPRO",
+ "name": "Contractor List Report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Attendance",
+ "report_name": "Contractor List Report",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "HR User"
+  },
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "HR Manager"
+  },
+  {
+   "role": "Contractor HR"
+  },
+  {
+   "role": "Employee HR"
+  },
+  {
+   "role": "HOD"
+  },
+  {
+   "role": "Contractor"
+  },
+  {
+   "role": "General Manager"
+  },
+  {
+   "role": "Time Office"
+  },
+  {
+   "role": "VP"
+  },
+  {
+   "role": "WTD"
+  },
+  {
+   "role": "Employee"
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "actions": [],
+ "creation": "2021-01-21 10:30:41.070782",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "department",
+  "requested_by",
+  "requested_count",
+  "allocated_count"
+ ],
+ "fields": [
+  {
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Department",
+   "options": "Department"
+  },
+  {
+   "fieldname": "requested_by",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Requested By",
+   "options": "User"
+  },
+  {
+   "fieldname": "requested_count",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Requested Count"
+  },
+  {
+   "fieldname": "allocated_count",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Allocated Count"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-02-07 19:24:37.721292",
+ "modified_by": "Administrator",
+ "module": "hrPRO",
+ "name": "Manpower Allocation Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

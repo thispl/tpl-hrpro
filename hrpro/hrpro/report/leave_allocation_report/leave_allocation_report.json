@@ -1,0 +1,25 @@
+{
+ "add_total_row": 0,
+ "creation": "2020-05-08 10:19:39.203873",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{\"filters\":[],\"fields\":[[\"name\",\"Leave Allocation\"],[\"docstatus\",\"Leave Allocation\"],[\"employee\",\"Leave Allocation\"],[\"employee_name\",\"Leave Allocation\"],[\"deaprtment\",\"Leave Allocation\"],[\"leave_type\",\"Leave Allocation\"],[\"total_leaves_allocated\",\"Leave Allocation\"]],\"order_by\":\"`tabLeave Allocation`.`modified` desc\",\"add_totals_row\":0,\"page_length\":20,\"column_widths\":{\"name\":120,\"employee\":120,\"employee_name\":120,\"deaprtment\":120,\"leave_type\":120,\"total_leaves_allocated\":120},\"group_by\":null}",
+ "modified": "2020-11-15 21:52:27.094190",
+ "modified_by": "Administrator",
+ "module": "hrPRO",
+ "name": "Leave Allocation Report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Leave Allocation",
+ "report_name": "Leave Allocation Report ",
+ "report_type": "Report Builder",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}

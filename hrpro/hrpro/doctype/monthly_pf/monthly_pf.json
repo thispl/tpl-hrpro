@@ -1,0 +1,113 @@
+{
+ "actions": [],
+ "creation": "2020-11-24 13:01:57.373401",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "month",
+  "amount_of_wages",
+  "epf",
+  "rpf",
+  "total",
+  "eepf",
+  "erpf",
+  "etotal",
+  "refund_of_advance",
+  "break_in_membership_reckonable_service",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "columns": 1,
+   "fieldname": "amount_of_wages",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Amount of Wages"
+  },
+  {
+   "columns": 1,
+   "fieldname": "epf",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "EPF"
+  },
+  {
+   "columns": 1,
+   "fieldname": "rpf",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "RPF"
+  },
+  {
+   "columns": 1,
+   "fieldname": "total",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Total"
+  },
+  {
+   "columns": 1,
+   "fieldname": "eepf",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "EEPF"
+  },
+  {
+   "columns": 1,
+   "fieldname": "erpf",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ERPF"
+  },
+  {
+   "columns": 1,
+   "fieldname": "etotal",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ETOTAL"
+  },
+  {
+   "columns": 1,
+   "fieldname": "refund_of_advance",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Refund of advance"
+  },
+  {
+   "columns": 1,
+   "fieldname": "break_in_membership_reckonable_service",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Break in membership reckonable service"
+  },
+  {
+   "columns": 1,
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Remarks"
+  },
+  {
+   "columns": 1,
+   "fieldname": "month",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Month",
+   "options": "April\nMay\nJune\nJuly\nAugust\nSeptember\nOctober\nNovember\nDecember\nJanuvary\nFebrauary\nMarch"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2020-11-24 16:17:53.119644",
+ "modified_by": "Administrator",
+ "module": "hrPRO",
+ "name": "Monthly PF",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

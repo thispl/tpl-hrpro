@@ -1,0 +1,25 @@
+{
+ "add_total_row": 0,
+ "creation": "2020-05-08 09:13:51.021808",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{\"filters\":[[\"Employee\",\"status\",\"=\",\"Active\",false]],\"fields\":[[\"name\",\"Employee\"],[\"employee_name\",\"Employee\"],[\"company\",\"Employee\"],[\"status\",\"Employee\"],[\"employment_type\",\"Employee\"],[\"gender\",\"Employee\"],[\"date_of_birth\",\"Employee\"],[\"date_of_joining\",\"Employee\"],[\"user_id\",\"Employee\"],[\"department\",\"Employee\"],[\"designation\",\"Employee\"],[\"branch\",\"Employee\"],[\"default_shift\",\"Employee\"],[\"cell_number\",\"Employee\"],[\"prefered_contact_email\",\"Employee\"],[\"marital_status\",\"Employee\"],[\"docstatus\",\"Employee\"],[\"pf_number\",\"Employee\"],[\"esi_number\",\"Employee\"],[\"bank_name\",\"Employee\"],[\"bank_ac_no\",\"Employee\"]],\"order_by\":\"`tabEmployee`.`modified` desc\",\"add_totals_row\":0,\"page_length\":20,\"column_widths\":{\"name\":120,\"employee_name\":120,\"company\":120,\"status\":120,\"employment_type\":120,\"gender\":120,\"date_of_birth\":120,\"date_of_joining\":120,\"user_id\":120,\"department\":120,\"designation\":120,\"branch\":120,\"default_shift\":120,\"cell_number\":120,\"prefered_contact_email\":120,\"marital_status\":120,\"pf_number\":120,\"esi_number\":120,\"bank_name\":120,\"bank_ac_no\":120},\"group_by\":null}",
+ "modified": "2020-11-15 21:52:26.025502",
+ "modified_by": "Administrator",
+ "module": "hrPRO",
+ "name": "Employee Information",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Employee",
+ "report_name": "Employee Information",
+ "report_type": "Report Builder",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}

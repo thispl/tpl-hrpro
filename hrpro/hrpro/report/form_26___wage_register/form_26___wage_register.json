@@ -1,0 +1,32 @@
+{
+ "add_total_row": 0,
+ "creation": "2020-11-10 09:25:18.309616",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "[{\"label\":\"Employee\",\"fieldname\":\"Employee\",\"fieldtype\":\"Link\",\"width\":120,\"options\":\"Employee\",\"id\":\"Employee\",\"name\":\"Employee\",\"editable\":false,\"compareValue\":null},{\"label\":\"Employee Name\",\"fieldname\":\"Employee Name\",\"fieldtype\":\"\",\"width\":140,\"id\":\"Employee Name\",\"name\":\"Employee Name\",\"editable\":false,\"compareValue\":null},{\"label\":\"Leave Without Pay\",\"fieldname\":\"Leave Without Pay\",\"fieldtype\":\"Float\",\"width\":-1,\"id\":\"Leave Without Pay\",\"name\":\"Leave Without Pay\",\"editable\":false,\"compareValue\":null},{\"label\":\"Payment Days\",\"fieldname\":\"Payment Days\",\"fieldtype\":\"Float\",\"width\":120,\"id\":\"Payment Days\",\"name\":\"Payment Days\",\"editable\":false,\"compareValue\":null},{\"label\":\"Basic\",\"fieldname\":\"Basic\",\"fieldtype\":\"Currency\",\"width\":120,\"id\":\"Basic\",\"name\":\"Basic\",\"editable\":false,\"compareValue\":null},{\"label\":\"Special Basic\",\"fieldname\":\"Special Basic\",\"fieldtype\":\"Currency\",\"width\":120,\"id\":\"Special Basic\",\"name\":\"Special Basic\",\"editable\":false,\"compareValue\":null},{\"label\":\"Dearness Allowance\",\"fieldname\":\"Dearness Allowance\",\"fieldtype\":\"Currency\",\"width\":120,\"id\":\"Dearness Allowance\",\"name\":\"Dearness Allowance\",\"editable\":false,\"compareValue\":null},{\"label\":\"Payment Overtime\",\"fieldname\":\"Payment Overtime\",\"fieldtype\":\"Currency\",\"width\":120,\"id\":\"Payment Overtime\",\"name\":\"Payment Overtime\",\"editable\":false,\"compareValue\":null},{\"label\":\"House Rent Allowance\",\"fieldname\":\"House Rent Allowance\",\"fieldtype\":\"Currency\",\"width\":120,\"id\":\"House Rent Allowance\",\"name\":\"House Rent Allowance\",\"editable\":false,\"compareValue\":null},{\"label\":\"Other Allowance\",\"fieldname\":\"Other Allowance\",\"fieldtype\":\"Currency\",\"width\":120,\"id\":\"Other Allowance\",\"name\":\"Other Allowance\",\"editable\":false,\"compareValue\":null},{\"label\":\"Incentive\",\"fieldname\":\"Incentive\",\"fieldtype\":\"Currency\",\"width\":120,\"id\":\"Incentive\",\"name\":\"Incentive\",\"editable\":false,\"compareValue\":null},{\"label\":\"Arrear Basic\",\"fieldname\":\"Arrear Basic\",\"fieldtype\":\"Currency\",\"width\":120,\"id\":\"Arrear Basic\",\"name\":\"Arrear Basic\",\"editable\":false,\"compareValue\":null},{\"label\":\"Misc. Credit\",\"fieldname\":\"Misc. Credit\",\"fieldtype\":\"Currency\",\"width\":120,\"id\":\"Misc. Credit\",\"name\":\"Misc. Credit\",\"editable\":false,\"compareValue\":null},{\"label\":\"Gross Pay\",\"fieldname\":\"Gross Pay\",\"fieldtype\":\"Currency\",\"width\":120,\"id\":\"Gross Pay\",\"name\":\"Gross Pay\",\"editable\":false,\"compareValue\":null},{\"label\":\"Provident Fund\",\"fieldname\":\"Provident Fund\",\"fieldtype\":\"Currency\",\"width\":120,\"id\":\"Provident Fund\",\"name\":\"Provident Fund\",\"editable\":false,\"compareValue\":null},{\"label\":\"ESIC\",\"fieldname\":\"ESIC\",\"fieldtype\":\"Currency\",\"width\":120,\"id\":\"ESIC\",\"name\":\"ESIC\",\"editable\":false,\"compareValue\":null},{\"label\":\"Society\",\"fieldname\":\"Society\",\"fieldtype\":\"Currency\",\"width\":120,\"id\":\"Society\",\"name\":\"Society\",\"editable\":false,\"compareValue\":null},{\"label\":\"Income Tax\",\"fieldname\":\"Income Tax\",\"fieldtype\":\"Currency\",\"width\":120,\"id\":\"Income Tax\",\"name\":\"Income Tax\",\"editable\":false,\"compareValue\":null},{\"label\":\"Insurance\",\"fieldname\":\"Insurance\",\"fieldtype\":\"Currency\",\"width\":120,\"id\":\"Insurance\",\"name\":\"Insurance\",\"editable\":false,\"compareValue\":null},{\"label\":\"Others\",\"fieldname\":\"Others\",\"fieldtype\":\"Currency\",\"width\":120,\"id\":\"Others\",\"name\":\"Others\",\"editable\":false,\"compareValue\":null},{\"label\":\"Recoveries\",\"fieldname\":\"Recoveries\",\"fieldtype\":\"Currency\",\"width\":120,\"id\":\"Recoveries\",\"name\":\"Recoveries\",\"editable\":false,\"compareValue\":null},{\"label\":\"Labor Welfare Fund\",\"fieldname\":\"Labor Welfare Fund\",\"fieldtype\":\"Currency\",\"width\":120,\"id\":\"Labor Welfare Fund\",\"name\":\"Labor Welfare Fund\",\"editable\":false,\"compareValue\":null},{\"label\":\"MISC DED\",\"fieldname\":\"MISC DED\",\"fieldtype\":\"Currency\",\"width\":120,\"id\":\"MISC DED\",\"name\":\"MISC DED\",\"editable\":false,\"compareValue\":null},{\"label\":\"Loan Repayment\",\"fieldname\":\"Loan Repayment\",\"fieldtype\":\"Currency\",\"width\":120,\"id\":\"Loan Repayment\",\"name\":\"Loan Repayment\",\"editable\":false,\"compareValue\":null},{\"label\":\"Total Deduction\",\"fieldname\":\"Total Deduction\",\"fieldtype\":\"Currency\",\"width\":120,\"id\":\"Total Deduction\",\"name\":\"Total Deduction\",\"editable\":false,\"compareValue\":null},{\"label\":\"Net Pay\",\"fieldname\":\"Net Pay\",\"fieldtype\":\"Currency\",\"width\":120,\"id\":\"Net Pay\",\"name\":\"Net Pay\",\"editable\":false,\"compareValue\":null}]",
+ "modified": "2020-11-15 21:52:25.877133",
+ "modified_by": "Administrator",
+ "module": "hrPRO",
+ "name": "Form 26 - Wage Register",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Salary Slip",
+ "reference_report": "",
+ "report_name": "Form 26 - Wage Register",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "HR User"
+  },
+  {
+   "role": "HR Manager"
+  },
+  {
+   "role": "Employee"
+  }
+ ]
+}

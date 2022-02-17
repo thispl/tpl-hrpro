@@ -1,0 +1,56 @@
+{
+ "cards": [
+  {
+   "hidden": 0,
+   "label": "Attendance & Checkin Reports",
+   "links": "[\n     {\n        \"doctype\": \"Attendance\",\n        \"is_query_report\":true,\n        \"label\": \"Contractor Attendance Report\",\n        \"name\": \"Contractor Attendance Report\",\n        \"type\": \"report\"\n    },\n     {\n        \"doctype\": \"Employee Checkin\",\n        \"is_query_report\":true,\n        \"label\": \"Employee Checkin Report\",\n        \"name\": \"Employee Checkin Report\",\n        \"type\": \"report\"\n    }\n    ]"
+  }
+ ],
+ "cards_label": "",
+ "category": "Modules",
+ "charts": [],
+ "creation": "2021-03-10 15:19:51.823865",
+ "developer_mode_only": 0,
+ "disable_user_customization": 1,
+ "docstatus": 0,
+ "doctype": "Desk Page",
+ "extends_another_page": 0,
+ "hide_custom": 0,
+ "idx": 0,
+ "is_standard": 1,
+ "label": "Contractor",
+ "modified": "2021-10-20 17:38:35.774826",
+ "modified_by": "Administrator",
+ "module": "hrPRO",
+ "name": "Contractor",
+ "owner": "Administrator",
+ "pin_to_bottom": 0,
+ "pin_to_top": 0,
+ "shortcuts": [
+  {
+   "doc_view": "List",
+   "label": "Contractor",
+   "link_to": "Contractor",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Contractor Employee",
+   "link_to": "Contractor Employee",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Compliance Documents",
+   "link_to": "Compliance Documents",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "RC Schedule Request",
+   "link_to": "RC Schedule Request",
+   "type": "DocType"
+  }
+ ],
+ "shortcuts_label": "Contractor Menu"
+}

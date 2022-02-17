@@ -1,0 +1,64 @@
+{
+ "actions": [],
+ "creation": "2021-02-16 18:25:45.818226",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "contractor",
+  "pf_attachment",
+  "check",
+  "column_break_3",
+  "start_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "contractor",
+   "fieldtype": "Link",
+   "label": "Contractor",
+   "options": "Contractor"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Month Start Date"
+  },
+  {
+   "fieldname": "pf_attachment",
+   "fieldtype": "Attach",
+   "label": "PF Attachment"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "check",
+   "fieldtype": "Button",
+   "label": "Check"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-02-18 12:18:44.616391",
+ "modified_by": "Administrator",
+ "module": "hrPRO",
+ "name": "PF Compliance",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

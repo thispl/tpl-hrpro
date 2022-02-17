@@ -1,0 +1,36 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2021-03-10 20:36:30.688556",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{\"filters\":[],\"fields\":[[\"name\",\"Permission Request\"],[\"employee\",\"Permission Request\"],[\"employee_name\",\"Permission Request\"],[\"docstatus\",\"Permission Request\"],[\"plant\",\"Permission Request\"],[\"contractor\",\"Permission Request\"],[\"from_date\",\"Permission Request\"],[\"to_date\",\"Permission Request\"],[\"reason\",\"Permission Request\"]],\"order_by\":\"`tabPermission Request`.`modified` desc\",\"add_totals_row\":0,\"page_length\":20,\"column_widths\":{\"name\":120,\"employee\":120,\"employee_name\":120,\"docstatus\":120,\"plant\":120,\"contractor\":120,\"from_date\":120,\"to_date\":120,\"reason\":120},\"group_by\":null}",
+ "modified": "2021-03-10 20:36:44.551727",
+ "modified_by": "Administrator",
+ "module": "hrPRO",
+ "name": "Permission Report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Permission Request",
+ "report_name": "Permission Report",
+ "report_type": "Report Builder",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "HR Manager"
+  },
+  {
+   "role": "HR User"
+  },
+  {
+   "role": "Employee"
+  }
+ ]
+}

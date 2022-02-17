@@ -1,0 +1,55 @@
+{
+ "cards": [
+  {
+   "hidden": 0,
+   "label": "Employee",
+   "links": "[\r\n    {\r\n        \"dependencies\": [\r\n            \"Employee\"\r\n        ],\r\n        \"doctype\": \"Employee\",\r\n        \"label\": \"Employee Information\",\r\n        \"name\": \"Employee Information\",\r\n        \"type\": \"report\"\r\n    },\r\n    {\r\n        \"dependencies\": [\r\n            \"Employee\"\r\n        ],\r\n        \"doctype\": \"Employee\",\r\n        \"is_query_report\":true,\r\n        \"label\": \"Anniversary Report\",\r\n        \"name\": \"Anniversary Report\",\r\n        \"type\": \"report\"\r\n    },\r\n    {\r\n        \"dependencies\": [\r\n            \"Employee\"\r\n        ],\r\n        \"doctype\": \"Employee\",\r\n        \"is_query_report\":true,\r\n        \"label\": \"Department Analytics\",\r\n        \"name\": \"Department Analytics\",\r\n        \"type\": \"report\"\r\n    },\r\n    {\r\n        \"dependencies\": [\r\n            \"Employee\"\r\n        ],\r\n        \"doctype\": \"Employee\",\r\n        \"label\": \"Department Wise Report\",\r\n        \"name\": \"Department Wise Report\",\r\n        \"type\": \"report\"\r\n    },\r\n    {\r\n        \"doctype\": \"Employee Promotion\",\r\n        \"label\": \"Employee Promotion Report\",\r\n        \"name\": \"Employee Promotion Report\",\r\n        \"type\": \"report\"\r\n    },\r\n     {\r\n        \"doctype\": \"Employee\",\r\n        \"is_query_report\":true,\r\n        \"label\": \"Employee Relieving Report\",\r\n        \"name\": \"Employee Relieving Report\",\r\n        \"type\": \"report\"\r\n    },\r\n      {\r\n        \"doctype\": \"Employee Separation\",\r\n        \"label\": \"Employee Separation Report\",\r\n        \"name\": \"Employee Separation Report\",\r\n        \"type\": \"report\"\r\n    },\r\n      {\r\n        \"doctype\": \"Employee Transfer\",\r\n        \"label\": \"Employee Transfer Report\",\r\n        \"name\": \"Employee Transfer Report\",\r\n        \"type\": \"report\"\r\n    }\r\n]"
+  },
+  {
+   "hidden": 0,
+   "label": "Attendance",
+   "links": "[\r\n    {\r\n        \"dependencies\": [\r\n            \"Attendance\"\r\n        ],\r\n        \"doctype\": \"Attendance\",\r\n        \"label\": \"Absent Report\",\r\n        \"name\": \"Absent Report\",\r\n        \"type\": \"report\"\r\n    },\r\n    {\r\n        \"dependencies\": [\r\n            \"Attendance\"\r\n        ],\r\n        \"doctype\": \"Attendance Request\",\r\n        \"label\": \"Attendance Request Report\",\r\n        \"name\": \"Attaendance Request Report\",\r\n        \"type\": \"report\"\r\n    },\r\n    {\r\n        \"doctype\": \"Compensatory Leave Request\",\r\n        \"label\": \"Compensatory Leave Request Report\",\r\n        \"name\": \"Compensatory Leave Request Report\",\r\n        \"type\": \"report\"\r\n    },\r\n    {\r\n         \"dependencies\": [\r\n            \"Attendance\"\r\n        ],\r\n        \"doctype\": \"Attendance\",\r\n        \"is_query_report\": true,\r\n        \"label\": \"Employee Working on a Holiday\",\r\n        \"name\": \"Employee Working on a Holiday\",\r\n        \"type\": \"report\"\r\n    },\r\n    {\r\n        \"doctype\": \"Leave Allocation\",\r\n        \"label\": \"Leave Allocation Report\",\r\n        \"name\": \"Leave Allocation Report\",\r\n        \"type\": \"report\"\r\n    },\r\n     {\r\n        \"doctype\": \"Leave Application\",\r\n        \"label\": \"Leave Application Report\",\r\n        \"name\": \"Leave Application Report\",\r\n        \"type\": \"report\"\r\n    },\r\n     {\r\n        \"doctype\": \"Leave Encashment\",\r\n        \"label\": \"Leave Encashment Report\",\r\n        \"name\": \"Leave Encashment Report\",\r\n        \"type\": \"report\"\r\n    },\r\n     {\r\n        \"doctype\": \"Attendance\",\r\n        \"is_query_report\": true,\r\n        \"label\": \"Monthly Attendance Sheet\",\r\n        \"name\": \"Monthly Attendance Sheet\",\r\n        \"type\": \"report\"\r\n    },\r\n     {\r\n        \"doctype\": \"Shift Assignment\",\r\n        \"label\": \"Shift Assignment Report\",\r\n        \"name\": \"Shift Assignment Report\",\r\n        \"type\": \"report\"\r\n    },\r\n     {\r\n        \"doctype\": \"Shift Request\",\r\n        \"label\": \"Shift Request Report\",\r\n        \"name\": \"Shift Request Report\",\r\n        \"type\": \"report\"\r\n    },\r\n     {\r\n        \"doctype\": \"Shift Assignment\",\r\n        \"label\": \"Shift Assignment Report\",\r\n        \"name\": \"Shift Assignment Report\",\r\n        \"type\": \"report\"\r\n    },\r\n    {\r\n        \"doctype\": \"Shift Assignment\",\r\n        \"is_query_report\": true,\r\n        \"label\": \"Shift Summary Report\",\r\n        \"name\": \"Shift Summary Report\",\r\n        \"type\": \"report\"\r\n    },\r\n      {\r\n        \"doctype\": \"Timesheet\",\r\n        \"label\": \"Timesheet Report\",\r\n        \"name\": \"Timesheet Report\",\r\n        \"type\": \"report\"\r\n    },\r\n     {\r\n        \"doctype\": \"Attendance\",\r\n        \"is_query_report\":true,\r\n        \"label\": \"Form 25 - Muster Roll\",\r\n        \"name\": \"Form 25 - Muster Roll\",\r\n        \"type\": \"report\"\r\n    }\r\n\r\n    \r\n\r\n]"
+  },
+  {
+   "hidden": 0,
+   "label": "Payroll",
+   "links": "[\r\n    {\r\n        \"dependencies\": [\r\n            \"Salary Slip\"\r\n        ],\r\n        \"doctype\": \"Salary Slip\",\r\n        \"is_query_report\":true,\r\n        \"label\": \"Salary Register Report\",\r\n        \"name\": \"Salary Register Report\",\r\n        \"type\": \"report\"\r\n    },\r\n    {\r\n        \"dependencies\": [\r\n            \"Payroll Entry\"\r\n        ],\r\n        \"doctype\": \"Payroll Entry\",\r\n        \"is_query_report\":true,\r\n        \"label\": \"Bank Remittance\",\r\n        \"name\": \"Bank Remittance\",\r\n        \"type\": \"report\"\r\n    },\r\n    {\r\n        \"doctype\": \"Retention Bonus\",\r\n        \"label\": \"Retention Bonus Report\",\r\n        \"name\": \"Retention Bonus Report\",\r\n        \"type\": \"report\"\r\n    },\r\n     {\r\n        \"doctype\": \"Additional Salary\",\r\n        \"label\": \"Additional Salary Report\",\r\n        \"name\": \"Additional Salary Report\",\r\n        \"type\": \"report\"\r\n    },\r\n     {\r\n        \"doctype\": \"Employee Advance\",\r\n        \"label\": \"Employee Advance Report\",\r\n        \"name\": \"Employee Advance Report\",\r\n        \"type\": \"report\"\r\n    },\r\n    {\r\n        \"doctype\": \"Employee Advance\",\r\n        \"is_query_report\":true,\r\n        \"label\": \"Employee Advance Summary\",\r\n        \"name\": \"Employee Advance Summary\",\r\n        \"type\": \"report\"\r\n    },\r\n    {\r\n        \"doctype\": \"Employee Benefit Application\",\r\n        \"label\": \"Employee Benefit Application Report\",\r\n        \"name\": \"Employee Benefit Application Report\",\r\n        \"type\": \"report\"\r\n    },\r\n    {\r\n        \"doctype\": \"Employee Benefit Claim\",\r\n        \"label\": \"Employee Benefit Claim Report\",\r\n        \"name\": \"Employee Benefit Claim Report\",\r\n        \"type\": \"report\"\r\n    },\r\n     {\r\n        \"doctype\": \"Employee Incentive\",\r\n        \"label\": \"Employee Incentive Report\",\r\n        \"name\": \"Employee Incentive Report\",\r\n        \"type\": \"report\"\r\n    },\r\n     {\r\n        \"doctype\": \"Salary Slip\",\r\n        \"is_query_report\":true,\r\n        \"label\": \"Form 26 - Wage Register\",\r\n        \"name\": \"Form 26 - Wage Register\",\r\n        \"type\": \"report\"\r\n    },\r\n     {\r\n        \"doctype\": \"Salary Slip\",\r\n        \"is_query_report\":true,\r\n        \"label\": \"Professional Tax (PT) Report\",\r\n        \"name\": \"PT Report\",\r\n        \"type\": \"report\"\r\n    },\r\n     {\r\n        \"doctype\": \"Salary Slip\",\r\n        \"is_query_report\":true,\r\n        \"label\": \"Provident Fund (PF) Report\",\r\n        \"name\": \"PF Report\",\r\n        \"type\": \"report\"\r\n    },\r\n     {\r\n        \"doctype\": \"Salary Slip\",\r\n        \"is_query_report\":true,\r\n        \"label\": \"Employees State Insurance (ESI) Report\",\r\n        \"name\": \"ESI Report\",\r\n        \"type\": \"report\"\r\n    }\r\n]"
+  }
+ ],
+ "category": "Modules",
+ "charts": [],
+ "creation": "2021-01-13 09:24:10.768836",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Desk Page",
+ "extends_another_page": 0,
+ "hide_custom": 0,
+ "idx": 0,
+ "is_standard": 1,
+ "label": "HR Reports",
+ "modified": "2021-01-13 09:36:10.010577",
+ "modified_by": "Administrator",
+ "module": "hrPRO",
+ "name": "HR Reports",
+ "owner": "Administrator",
+ "pin_to_bottom": 0,
+ "pin_to_top": 0,
+ "shortcuts": [
+  {
+   "label": "Muster Roll",
+   "link_to": "Monthly Attendance Sheet Report",
+   "type": "Report"
+  },
+  {
+   "label": "Wage Register",
+   "link_to": "Salary Register Report",
+   "type": "Report"
+  },
+  {
+   "label": "Dashboard",
+   "link_to": "Human Resource",
+   "type": "Dashboard"
+  }
+ ]
+}

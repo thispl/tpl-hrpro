@@ -1,0 +1,182 @@
+{
+ "actions": [],
+ "autoname": "URC-.####",
+ "creation": "2021-03-27 14:26:03.539004",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "contractor",
+  "plant",
+  "dept",
+  "department",
+  "division",
+  "column_break_4",
+  "start_date",
+  "end_date",
+  "nature_of_work",
+  "remark",
+  "rc_schedule_history_section",
+  "rc_html",
+  "sb",
+  "contract_type",
+  "column_break_20",
+  "manpower_count",
+  "section_break_22",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "contractor",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Contractor",
+   "options": "Contractor",
+   "permlevel": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "plant",
+   "fieldtype": "Link",
+   "label": "Plant",
+   "options": "Plant",
+   "permlevel": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "dept",
+   "fieldtype": "Select",
+   "label": "Department",
+   "permlevel": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "in_list_view": 1,
+   "label": "Department",
+   "options": "Department",
+   "permlevel": 1
+  },
+  {
+   "depends_on": "eval:doc.dept",
+   "fetch_from": "department.division",
+   "fieldname": "division",
+   "fieldtype": "Data",
+   "label": "Division",
+   "permlevel": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Start Date",
+   "permlevel": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "label": "End Date",
+   "permlevel": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "sb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "contract_type",
+   "fieldtype": "Select",
+   "label": "Contract Type",
+   "options": "\nJob Contract\nManpower Contract",
+   "permlevel": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_20",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "manpower_count",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Unregistered Count",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_22",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Unregistered Schedule Request",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Unregistered Schedule Request",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "rc_schedule_history_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "rc_html",
+   "fieldtype": "HTML"
+  },
+  {
+   "depends_on": "eval:doc.workflow_state == \"Pending for WTD\" || doc.workflow_state == \"Approved\"",
+   "fieldname": "remark",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "nature_of_work",
+   "fieldtype": "Select",
+   "label": "Nature of Work",
+   "permlevel": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-09-11 19:54:20.087272",
+ "modified_by": "Administrator",
+ "module": "hrPRO",
+ "name": "Unregistered Schedule Request",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "department",
+ "track_changes": 1
+}

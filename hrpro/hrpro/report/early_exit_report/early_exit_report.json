@@ -1,0 +1,31 @@
+{
+ "add_total_row": 0,
+ "creation": "2020-12-19 14:36:45.595491",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{\"filters\":[],\"fields\":[[\"name\",\"Attendance\"],[\"employee\",\"Attendance\"],[\"employee_name\",\"Attendance\"],[\"early_exit\",\"Attendance\"],[\"out\",\"Attendance\"],[\"attendance_date\",\"Attendance\"],[\"gate\",\"Attendance\"],[\"contractor\",\"Attendance\"]],\"order_by\":\"`tabAttendance`.`modified` desc\",\"add_totals_row\":0,\"page_length\":20,\"column_widths\":{\"name\":120,\"employee\":120,\"employee_name\":120,\"early_exit\":120,\"out\":120,\"attendance_date\":120,\"gate\":120,\"contractor\":120},\"group_by\":null}",
+ "modified": "2021-02-06 14:41:50.897907",
+ "modified_by": "Administrator",
+ "module": "hrPRO",
+ "name": "Early Exit Report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Attendance",
+ "report_name": "Early Exit Report",
+ "report_type": "Report Builder",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "HR User"
+  },
+  {
+   "role": "HR Manager"
+  }
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "actions": [],
+ "autoname": "AL-.####",
+ "creation": "2021-04-02 18:21:05.505239",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "department",
+  "plant",
+  "hod",
+  "gm",
+  "column_break_7",
+  "division",
+  "vp",
+  "wtd"
+ ],
+ "fields": [
+  {
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Department",
+   "options": "Department"
+  },
+  {
+   "fieldname": "plant",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Plant",
+   "options": "Plant"
+  },
+  {
+   "fieldname": "hod",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "HOD",
+   "options": "User"
+  },
+  {
+   "depends_on": "eval:doc.division == \"Maintenance\"",
+   "fieldname": "gm",
+   "fieldtype": "Link",
+   "label": "GM",
+   "options": "User"
+  },
+  {
+   "fieldname": "vp",
+   "fieldtype": "Link",
+   "label": "VP",
+   "options": "User"
+  },
+  {
+   "fieldname": "wtd",
+   "fieldtype": "Link",
+   "label": "WTD",
+   "options": "User"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "department.division",
+   "fieldname": "division",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Division",
+   "options": "\nMaintenance\nOperations",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-04-02 20:36:06.257479",
+ "modified_by": "Administrator",
+ "module": "hrPRO",
+ "name": "Approval Level",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "department",
+ "track_changes": 1
+}

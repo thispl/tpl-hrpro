@@ -1,0 +1,25 @@
+{
+ "add_total_row": 0,
+ "creation": "2020-05-08 10:36:09.892492",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{\"filters\":[],\"fields\":[[\"name\",\"Employee Tax Exemption Declaration\"],[\"employee\",\"Employee Tax Exemption Declaration\"],[\"employee_name\",\"Employee Tax Exemption Declaration\"],[\"department\",\"Employee Tax Exemption Declaration\"],[\"docstatus\",\"Employee Tax Exemption Declaration\"],[\"payroll_period\",\"Employee Tax Exemption Declaration\"],[\"company\",\"Employee Tax Exemption Declaration\"],[\"exemption_category\",\"Employee Tax Exemption Declaration Category\"],[\"exemption_sub_category\",\"Employee Tax Exemption Declaration Category\"],[\"max_amount\",\"Employee Tax Exemption Declaration Category\"],[\"amount\",\"Employee Tax Exemption Declaration Category\"],[\"total_declared_amount\",\"Employee Tax Exemption Declaration\"],[\"total_exemption_amount\",\"Employee Tax Exemption Declaration\"],[\"income_from_other_sources\",\"Employee Tax Exemption Declaration\"]],\"order_by\":\"`tabEmployee Tax Exemption Declaration`.`modified` desc\",\"add_totals_row\":0,\"page_length\":20,\"column_widths\":{\"name\":120,\"employee\":120,\"employee_name\":120,\"department\":120,\"payroll_period\":120,\"company\":120,\"Employee Tax Exemption Declaration Category:exemption_category\":120,\"Employee Tax Exemption Declaration Category:exemption_sub_category\":120,\"Employee Tax Exemption Declaration Category:max_amount\":120,\"Employee Tax Exemption Declaration Category:amount\":120,\"total_declared_amount\":120,\"total_exemption_amount\":120,\"income_from_other_sources\":120},\"group_by\":null}",
+ "modified": "2020-11-15 21:52:28.166221",
+ "modified_by": "Administrator",
+ "module": "hrPRO",
+ "name": "Employee Tax Exemption Declaration Report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Employee Tax Exemption Declaration",
+ "report_name": "Employee Tax Exemption Declaration Report",
+ "report_type": "Report Builder",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}

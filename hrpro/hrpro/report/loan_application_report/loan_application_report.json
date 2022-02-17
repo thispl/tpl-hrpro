@@ -1,0 +1,25 @@
+{
+ "add_total_row": 0,
+ "creation": "2020-05-08 11:05:56.063986",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{\"filters\":[],\"fields\":[[\"name\",\"Loan Application\"],[\"docstatus\",\"Loan Application\"],[\"applicant_name\",\"Loan Application\"],[\"posting_date\",\"Loan Application\"],[\"loan_type\",\"Loan Application\"],[\"loan_amount\",\"Loan Application\"],[\"company\",\"Loan Application\"]],\"order_by\":\"`tabLoan Application`.`modified` desc\",\"add_totals_row\":0,\"page_length\":20,\"column_widths\":{},\"group_by\":null}",
+ "modified": "2020-11-15 21:52:27.386475",
+ "modified_by": "Administrator",
+ "module": "hrPRO",
+ "name": "Loan Application Report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Loan Application",
+ "report_name": "Loan Application Report",
+ "report_type": "Report Builder",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}

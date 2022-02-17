@@ -1,0 +1,56 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2021-04-08 18:26:19.541107",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [
+  {
+   "fieldname": "from_date",
+   "fieldtype": "Date",
+   "label": "From Date",
+   "mandatory": 0,
+   "options": "",
+   "wildcard_filter": 1
+  },
+  {
+   "fieldname": "to_date",
+   "fieldtype": "Date",
+   "label": "To Date",
+   "mandatory": 0,
+   "wildcard_filter": 1
+  }
+ ],
+ "idx": 0,
+ "is_standard": "Yes",
+ "modified": "2021-04-08 18:33:00.685784",
+ "modified_by": "Administrator",
+ "module": "hrPRO",
+ "name": "Contractor Attendance Report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "SELECT\n `employee` as \"Employee ID::100\",\n `employee_name` as \"Employee Name::200\",\n `status` as \"Status::100\",\n `shift` as \"Shift::100\",\n `in` as \"In Time::100\",\n `out` as \"Out Time::100\",\n `total_working_hours` as \"Total Working Hours:Time:100\",\n `attendance_date` as \"Attendance Date:Date:150\",\n `contractor` as \"Contractor::200\",\n `plant` as \"Plant::200\",\n `contract_type` as \"Contract Type::100\",\n `extra_hours` as \"Extra Hours:Time:100\",\n `approved_ot_hours` as \"Approved OT Hours:Time:100\"\nFROM\n `tabAttendance`\nWHERE\n`attendance_date` between %(from_date)s and %(to_date)s\nAND\n`contractor`= %(contractor)s;\n",
+ "ref_doctype": "Attendance",
+ "report_name": "Contractor Attendance Report",
+ "report_script": "\r\n",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "HR User"
+  },
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Employee"
+  },
+  {
+   "role": "HR Manager"
+  },
+  {
+   "role": "Contractor"
+  }
+ ]
+}

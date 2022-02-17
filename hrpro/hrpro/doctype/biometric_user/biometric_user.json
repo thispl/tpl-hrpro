@@ -1,0 +1,132 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:biometric_pin",
+ "creation": "2021-01-06 13:59:44.124404",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "biometric_pin",
+  "first_name",
+  "last_name",
+  "column_break_4",
+  "skip",
+  "employment_type",
+  "contractor",
+  "uan_no",
+  "pf_number",
+  "esi_ip_no",
+  "amended_from",
+  "code",
+  "aadhar_number"
+ ],
+ "fields": [
+  {
+   "fieldname": "biometric_pin",
+   "fieldtype": "Data",
+   "label": "Biometric Pin",
+   "unique": 1
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "First Name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "eval:doc.employment_type == \"Subcontract\"",
+   "fieldname": "contractor",
+   "fieldtype": "Link",
+   "label": "Contractor",
+   "options": "Contractor"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Biometric User",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "default": "Subcontract",
+   "fieldname": "employment_type",
+   "fieldtype": "Link",
+   "label": "Employment Type",
+   "options": "Employment Type"
+  },
+  {
+   "default": "0",
+   "fieldname": "skip",
+   "fieldtype": "Check",
+   "label": "Employee Created"
+  },
+  {
+   "fieldname": "pf_number",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "PF Number",
+   "length": 12
+  },
+  {
+   "fieldname": "esi_ip_no",
+   "fieldtype": "Data",
+   "label": "ESI IP No",
+   "length": 10
+  },
+  {
+   "fieldname": "uan_no",
+   "fieldtype": "Data",
+   "label": "UAN No",
+   "length": 12
+  },
+  {
+   "fieldname": "code",
+   "fieldtype": "Data",
+   "label": "Code"
+  },
+  {
+   "fieldname": "aadhar_number",
+   "fieldtype": "Data",
+   "label": "Aadhar Number"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-12-07 18:52:00.073386",
+ "modified_by": "Administrator",
+ "module": "hrPRO",
+ "name": "Biometric User",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

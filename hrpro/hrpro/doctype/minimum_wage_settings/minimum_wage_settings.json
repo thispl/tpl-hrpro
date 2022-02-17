@@ -1,0 +1,72 @@
+{
+ "actions": [],
+ "creation": "2021-03-25 12:21:11.005104",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "basic",
+  "da",
+  "hra",
+  "column_break_4",
+  "sa",
+  "ot_hr"
+ ],
+ "fields": [
+  {
+   "fieldname": "basic",
+   "fieldtype": "Currency",
+   "label": "Basic"
+  },
+  {
+   "fieldname": "da",
+   "fieldtype": "Currency",
+   "label": "DA"
+  },
+  {
+   "fieldname": "hra",
+   "fieldtype": "Currency",
+   "label": "HRA"
+  },
+  {
+   "fieldname": "sa",
+   "fieldtype": "Currency",
+   "label": "Special Allowances"
+  },
+  {
+   "description": "Per day salary multiply no. of times ",
+   "fieldname": "ot_hr",
+   "fieldtype": "Int",
+   "label": "Overtime"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2021-03-25 12:26:57.297854",
+ "modified_by": "Administrator",
+ "module": "hrPRO",
+ "name": "Minimum Wage Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

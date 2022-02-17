@@ -1,0 +1,56 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2021-03-27 16:17:35.804273",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [
+  {
+   "fieldname": "from_date",
+   "fieldtype": "Date",
+   "label": "From Date",
+   "mandatory": 0,
+   "options": "",
+   "wildcard_filter": 1
+  },
+  {
+   "fieldname": "to_date",
+   "fieldtype": "Date",
+   "label": "To Date",
+   "mandatory": 0,
+   "wildcard_filter": 1
+  }
+ ],
+ "idx": 0,
+ "is_standard": "Yes",
+ "modified": "2021-09-04 11:09:24.408837",
+ "modified_by": "Administrator",
+ "module": "hrPRO",
+ "name": "Employee Checkin Report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "SELECT\n employee_name as \"Employee Name::200\",\n biometric_pin as \"Biometric PIN::100\",\n device_area as \"Device Area::100\",\n contractor as \"Contractor::200\",\n log_type as \"Type::100\",\n log_date as \"Log Date:Date:100\",\n time(time) as \"Log Time:Time:200\"\nFROM\n `tabEmployee Checkin`\nWHERE\n`log_date` between %(from_date)s and %(to_date)s\nAND\n`contractor`= %(contractor)s;\n",
+ "ref_doctype": "Employee Checkin",
+ "report_name": "Employee Checkin Report",
+ "report_script": "\r\n",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "HR User"
+  },
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Employee"
+  },
+  {
+   "role": "HR Manager"
+  },
+  {
+   "role": "Contractor"
+  }
+ ]
+}

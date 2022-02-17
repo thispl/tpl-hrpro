@@ -1,0 +1,57 @@
+<h2 class="text-center">{%= __("FORM D") %}</h2>
+<h2 class="text-center">{%= __("ATTENDANCE REGISTER") %}</h2>
+<!-- {%
+	var report_columns = report.get_columns_for_print();
+%}
+<style>
+	td {
+		font-size: 11px;
+	}
+
+	th {
+		font-size: 9px;
+	}
+
+	.center {
+		margin-left: auto;
+		margin-right: auto;
+	}
+</style>
+<meta name="pdfkit-orientation" content="landscape">
+<hr>
+{%
+					var report_columns = report.get_columns_for_print();
+				%}
+<table border="1">
+	<thead>
+		<tr>
+            <th>Sl. Number in Employees Register </th>
+            <th>Name  </th>
+            
+        </tr>
+	</thead>
+	<tbody>
+        {% for(var j=0, k=data.length; j<k; j++) { %}
+		{% var row = data[j]; %}
+		<tr>
+			<td class="text-left">
+				{% for(var i=1, l=32; i<l; i++) { %}
+				{% var fieldname = report_columns[i].fieldname; %}
+				{% if (fieldname == 'Employee') { %}
+				{%=  row[fieldname] %}
+				{% } %}
+				{% } %}
+            </td>
+            <td class="text-left">
+				{% for(var i=1, l=32; i<l; i++) { %}
+				{% var fieldname = report_columns[i].fieldname; %}
+				{% if (fieldname == 'Employee Name') { %}
+				{%=  row[fieldname] %}
+				{% } %}
+				{% } %}
+			</td>
+        
+		</tr>
+		{% } %}
+	</tbody>
+</table> -->

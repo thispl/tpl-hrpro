@@ -1,0 +1,191 @@
+{
+ "actions": [],
+ "autoname": "PF.####",
+ "creation": "2020-11-24 12:34:07.404091",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "employee_name",
+  "father_name",
+  "column_break_3",
+  "contractor_name",
+  "account_no",
+  "start_date",
+  "end_date",
+  "contract_address",
+  "flat_number",
+  "street_road",
+  "area_locality",
+  "village_town_city",
+  "column_break_10",
+  "district",
+  "state",
+  "country",
+  "pin_code",
+  "section_break_14",
+  "statutory_rate_of_the_contribution",
+  "column_break_18",
+  "voluntary_higher_rate_of_employee_contribution_if_any",
+  "section_break_20",
+  "monthly_pf"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Link",
+   "label": "Employee Code",
+   "options": "Employee"
+  },
+  {
+   "fetch_from": "name1.fathers_name",
+   "fieldname": "father_name",
+   "fieldtype": "Data",
+   "label": "Father Name"
+  },
+  {
+   "fetch_from": "name1.bank_ac_no",
+   "fieldname": "account_no",
+   "fieldtype": "Data",
+   "label": "Account No"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "contract_address",
+   "fieldtype": "Section Break",
+   "label": "Contractor Address"
+  },
+  {
+   "fieldname": "statutory_rate_of_the_contribution",
+   "fieldtype": "Data",
+   "label": "Statutory rate of the contribution"
+  },
+  {
+   "fieldname": "voluntary_higher_rate_of_employee_contribution_if_any",
+   "fieldtype": "Data",
+   "label": "Voluntary higher rate of employee contribution if any"
+  },
+  {
+   "fetch_from": "name1.contractor_name",
+   "fieldname": "contractor_name",
+   "fieldtype": "Data",
+   "label": "Contractor Name"
+  },
+  {
+   "fetch_from": "name1.flat",
+   "fieldname": "flat_number",
+   "fieldtype": "Data",
+   "label": "Flat Number"
+  },
+  {
+   "fetch_from": "name1.street_road",
+   "fieldname": "street_road",
+   "fieldtype": "Data",
+   "label": "Street Road"
+  },
+  {
+   "fetch_from": "name1.area_locality",
+   "fieldname": "area_locality",
+   "fieldtype": "Data",
+   "label": "Area Locality"
+  },
+  {
+   "fetch_from": "name1.village_town_city",
+   "fieldname": "village_town_city",
+   "fieldtype": "Data",
+   "label": "Village Town City"
+  },
+  {
+   "fetch_from": "name1.district",
+   "fieldname": "district",
+   "fieldtype": "Data",
+   "label": "District"
+  },
+  {
+   "fetch_from": "name1.state",
+   "fieldname": "state",
+   "fieldtype": "Data",
+   "label": "State"
+  },
+  {
+   "fetch_from": "name1.country",
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "label": "Country"
+  },
+  {
+   "fetch_from": "name1.pin_code",
+   "fieldname": "pin_code",
+   "fieldtype": "Data",
+   "label": "Pin Code"
+  },
+  {
+   "fieldname": "section_break_14",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "monthly_pf",
+   "fieldtype": "Table",
+   "label": "Monthly PF",
+   "options": "Monthly PF"
+  },
+  {
+   "fieldname": "column_break_10",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_18",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_20",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "name1.employee_name",
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "label": "Employee Name"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "label": "End Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2020-11-24 14:04:43.429167",
+ "modified_by": "Administrator",
+ "module": "hrPRO",
+ "name": "Annual PF",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

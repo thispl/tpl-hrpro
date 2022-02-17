@@ -1,0 +1,39 @@
+{
+ "add_total_row": 1,
+ "columns": [],
+ "creation": "2021-03-10 20:15:09.095274",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{\"filters\":[[\"Attendance\",\"attendance_date\",\"Timespan\",\"today\",false],[\"Attendance\",\"extra_hours\",\">\",\"00:00:00\",false]],\"fields\":[[\"name\",\"Attendance\"],[\"employee\",\"Attendance\"],[\"employee_name\",\"Attendance\"],[\"status\",\"Attendance\"],[\"plant\",\"Attendance\"],[\"shift\",\"Attendance\"],[\"contractor\",\"Attendance\"],[\"total_working_hours\",\"Attendance\"],[\"extra_hours\",\"Attendance\"],[\"approved_ot_hours\",\"Attendance\"]],\"order_by\":\"`tabAttendance`.`modified` desc\",\"add_totals_row\":0,\"page_length\":20,\"column_widths\":{\"name\":120,\"employee\":120,\"employee_name\":120,\"status\":120,\"plant\":120,\"shift\":120,\"contractor\":120,\"total_working_hours\":120,\"extra_hours\":120,\"approved_ot_hours\":120},\"group_by\":null}",
+ "modified": "2021-03-10 20:15:29.950280",
+ "modified_by": "Administrator",
+ "module": "hrPRO",
+ "name": "Over Time Report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Attendance",
+ "report_name": "Over Time Report",
+ "report_type": "Report Builder",
+ "roles": [
+  {
+   "role": "HR User"
+  },
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "HR Manager"
+  },
+  {
+   "role": "Contractor HR"
+  },
+  {
+   "role": "Employee HR"
+  }
+ ]
+}

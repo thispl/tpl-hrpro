@@ -1,0 +1,134 @@
+{
+ "actions": [],
+ "autoname": "REC.####",
+ "creation": "2020-11-21 20:00:14.032366",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "employee_number",
+  "name1",
+  "recovery_type",
+  "date_of_damageloss",
+  "amount",
+  "particulars",
+  "column_break_7",
+  "whether_show_cause_issued",
+  "explanation_heard_in_presence_of",
+  "employee_name",
+  "number_of_installments",
+  "first_monthyear",
+  "last_monthyear",
+  "date_of_compalete_recovery",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee_number",
+   "fieldtype": "Link",
+   "label": "Employee Number",
+   "options": "Employee"
+  },
+  {
+   "fetch_from": "employee_number.employee_name",
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "recovery_type",
+   "fieldtype": "Select",
+   "label": "Recovery Type",
+   "options": "\nDamage\nloss\nfine\nadvance\nloan"
+  },
+  {
+   "fieldname": "particulars",
+   "fieldtype": "Small Text",
+   "label": "Particulars"
+  },
+  {
+   "fieldname": "date_of_damageloss",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date of Damage/Loss"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Amount"
+  },
+  {
+   "fieldname": "whether_show_cause_issued",
+   "fieldtype": "Data",
+   "label": "Whether Show cause issued"
+  },
+  {
+   "fieldname": "explanation_heard_in_presence_of",
+   "fieldtype": "Link",
+   "label": "Explanation heard in presence of",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "number_of_installments",
+   "fieldtype": "Data",
+   "label": "Number of Installments"
+  },
+  {
+   "fieldname": "first_monthyear",
+   "fieldtype": "Date",
+   "label": "First Month/Year"
+  },
+  {
+   "fieldname": "last_monthyear",
+   "fieldtype": "Date",
+   "label": "Last Month/Year"
+  },
+  {
+   "fieldname": "date_of_compalete_recovery",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date of Compalete Recovery"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "explanation_heard_in_presence_of.employee_name",
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "label": "Employee Name"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2020-11-21 20:28:43.387096",
+ "modified_by": "Administrator",
+ "module": "hrPRO",
+ "name": "Recovery",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

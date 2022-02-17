@@ -1,0 +1,29 @@
+{
+ "cards": [
+  {
+   "card": "Active Contract Employees"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Daily Attendance Shift Wise",
+   "width": "Half"
+  },
+  {
+   "chart": "Departmentwise Head Count",
+   "width": "Half"
+  }
+ ],
+ "creation": "2021-03-12 17:42:56.478085",
+ "dashboard_name": "HOD Dashboard",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 1,
+ "is_standard": 1,
+ "modified": "2021-03-25 15:11:22.525726",
+ "modified_by": "Administrator",
+ "module": "hrPRO",
+ "name": "HOD Dashboard",
+ "owner": "Administrator"
+}
